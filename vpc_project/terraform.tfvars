@@ -1,0 +1,5 @@
+project_id = "summer-nexus-468907-t1"
+region = "us-east1"
+network_name = "my-custom-vpc"
+subnet_name = "my-custom-subnet"
+subnet_cidr = "10.0.0.0/24"

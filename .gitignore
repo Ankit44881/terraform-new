@@ -1,0 +1,15 @@
+# Terraform local files
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# VSCode workspace
+*.code-workspace
+
+# OS files
+.DS_Store
+
+# Sensitive files
+*.json
+

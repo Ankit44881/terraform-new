@@ -1,0 +1,17 @@
+
+terraform {
+  required_providers {
+    google = {
+        source = "hashicorp/google"
+      version = "6.47.0"
+    }
+  }
+}
+
+
+
+provider "google" {
+    project = var.project_id
+    credentials = file("../vm_project/credentials.json")
+  
+}
